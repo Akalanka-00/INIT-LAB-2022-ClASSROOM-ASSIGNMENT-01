@@ -35,14 +35,16 @@ section{
 }
 
 .btn{
-    width: max-content;
     display: inline-block;
     color: #4db5ff;
     padding: 0.75rem 1.2em;
     border-radius: 0.4rem;
     cursor: pointer;
     border: 1px solid #4db5ff;
-    transition: var(--transition);
+    transition: all 400ms ease;
+    width: 15rem;
+    margin-left: 6rem;
+
 
 }
 
@@ -68,6 +70,10 @@ section{
     
 }
 
+.login_form{
+    padding-top: 5rem;
+}
+
 .heading{
     text-align: center;
     line-height: 1.1;
@@ -79,7 +85,8 @@ h2{
 }
 h5{
     top: 0;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+    color: #5555ff;
 }
 
 .form{
@@ -102,7 +109,12 @@ input{
     font-size: 1.2rem;
     text-align: left;
 }
+
+.submit{
+
+}
 button{
+    right: 0;
     margin: 1rem;
     align-self: flex-end;
 }
